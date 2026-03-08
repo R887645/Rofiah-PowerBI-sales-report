@@ -1,0 +1,114 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.1.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY25SU12",
+      "reportVersionAtImport": {
+        "visual": "2.5.0",
+        "report": "3.1.0",
+        "page": "2.3.0"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "simpleImageEBC4593F96F1425FB3D84C5BF02B5075",
+    "ChicletSlicer1448559807354",
+    "performanceBubbleChartFBAAA829CB604E5CAB4F21729F233294"
+  ],
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY25SU12",
+          "path": "BaseThemes/CY25SU12.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "AI_(1)5601670781090937.png",
+          "path": "AI_(1)5601670781090937.png",
+          "type": "Image"
+        },
+        {
+          "name": "Shoes23642510277631157.png",
+          "path": "Shoes23642510277631157.png",
+          "type": "Image"
+        },
+        {
+          "name": "Toys009403594063743359.png",
+          "path": "Toys009403594063743359.png",
+          "type": "Image"
+        },
+        {
+          "name": "shirts7345483648709275.png",
+          "path": "shirts7345483648709275.png",
+          "type": "Image"
+        },
+        {
+          "name": "Rofiah_Content_Designs_(81)6624769923632071.png",
+          "path": "Rofiah_Content_Designs_(81)6624769923632071.png",
+          "type": "Image"
+        },
+        {
+          "name": "Slide145585842314857564.PNG",
+          "path": "Slide145585842314857564.PNG",
+          "type": "Image"
+        },
+        {
+          "name": "2026__Dashboard_Wireframes052320358421194646.png",
+          "path": "2026__Dashboard_Wireframes052320358421194646.png",
+          "type": "Image"
+        },
+        {
+          "name": "Slide126785473352723144.PNG",
+          "path": "Slide126785473352723144.PNG",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

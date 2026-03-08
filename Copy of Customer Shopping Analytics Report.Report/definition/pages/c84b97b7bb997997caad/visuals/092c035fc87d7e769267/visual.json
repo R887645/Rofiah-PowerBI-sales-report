@@ -1,0 +1,455 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "092c035fc87d7e769267",
+  "position": {
+    "x": 1044.2414401694318,
+    "y": 102.47229085774798,
+    "z": 10000,
+    "height": 322.05577126720789,
+    "width": 407.44934698199791,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculated Measures (2)"
+                    }
+                  },
+                  "Property": "Order_Count"
+                }
+              },
+              "queryRef": "Calculated Measures (2).Order_Count",
+              "nativeQueryRef": "Total Order",
+              "displayName": "Total Order"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Calculated Measures (2)"
+                  }
+                },
+                "Property": "Order_Count"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "referenceLabel": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculated Measures (2)"
+                    }
+                  },
+                  "Property": "PM_Order"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Calculated Measures (2).Order_Count",
+            "id": "field-84c083f8-24f0-a8d5-ffd0-7ed9e870e32d",
+            "order": 0
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculated Measures (2)"
+                    }
+                  },
+                  "Property": "Order_Var"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Calculated Measures (2).Order_Count",
+            "id": "field-3fd42479-a164-b353-6e8c-2620bdfb437d",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculated Measures (2)"
+                    }
+                  },
+                  "Property": "MoM_Order_count"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Calculated Measures (2).Order_Count",
+            "id": "field-db5e12e9-070f-dd8b-4ec6-fa8c1d53104f",
+            "order": 2
+          }
+        }
+      ],
+      "referenceLabelValue": [
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "MoM_Colour_Order"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Calculated Measures (2).Order_Count",
+            "id": "field-db5e12e9-070f-dd8b-4ec6-fa8c1d53104f"
+          }
+        },
+        {
+          "properties": {
+            "valueDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'#,#'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Order_Count",
+            "id": "field-3fd42479-a164-b353-6e8c-2620bdfb437d"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "MoM_Colour_Order"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Calculated Measures (2).Order_Count",
+            "id": "field-3fd42479-a164-b353-6e8c-2620bdfb437d"
+          }
+        },
+        {
+          "properties": {
+            "valueDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'#,#'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Order_Count",
+            "id": "field-84c083f8-24f0-a8d5-ffd0-7ed9e870e32d"
+          }
+        },
+        {
+          "properties": {
+            "valueFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)"
+          }
+        },
+        {
+          "properties": {
+            "valueFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Order_Count"
+          }
+        }
+      ],
+      "referenceLabelTitle": [
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'PM:'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Order_Count",
+            "id": "field-84c083f8-24f0-a8d5-ffd0-7ed9e870e32d"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'ΔPM:'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Order_Count",
+            "id": "field-3fd42479-a164-b353-6e8c-2620bdfb437d"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'vs PM:'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Order_Count",
+            "id": "field-db5e12e9-070f-dd8b-4ec6-fa8c1d53104f"
+          }
+        }
+      ],
+      "layout": [
+        {
+          "properties": {
+            "style": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Cards'"
+                }
+              }
+            },
+            "orientation": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "backgroundShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "fillCustom": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "outline": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "label": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

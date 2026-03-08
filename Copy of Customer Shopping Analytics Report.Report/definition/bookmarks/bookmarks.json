@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmarksMetadata/1.0.0/schema.json",
+  "items": [
+    {
+      "name": "ec38618fe2c9bb7159a6",
+      "displayName": "Reset Bookmark",
+      "children": [
+        "fcc70925bb856149ad05",
+        "2fb980c37705a0a22f47",
+        "42c8562ea80650b56b6c"
+      ]
+    },
+    {
+      "name": "559941baa9c8fa8a620f",
+      "displayName": "Slicer Bookmark",
+      "children": [
+        "b03d77b836bff75d1abd",
+        "2e267e3ed92dfe1252e4",
+        "3fad8660c1f2731436a8",
+        "57500bd80f97362cb836",
+        "73aa5d2da95481768266",
+        "3bb53f08d697ac479df1"
+      ]
+    },
+    {
+      "name": "14eab9363e8fa432a5c3",
+      "displayName": "Top & Bottom 5",
+      "children": [
+        "28b8cea360b6c3f05590",
+        "3a6820316f2efbda28b9"
+      ]
+    }
+  ]
+}

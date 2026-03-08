@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "0968aea09b7f6b4d9d21",
+  "position": {
+    "x": 16.564814149112085,
+    "y": 122.57962470342943,
+    "z": 2000,
+    "height": 293.19721043928388,
+    "width": 543.32590409087641,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "RETAIL PERFORMANCE & CUSTOMER INSIGHTS REPORT",
+                    "textStyle": {
+                      "fontSize": "36pt",
+                      "color": "#6f1d1b"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

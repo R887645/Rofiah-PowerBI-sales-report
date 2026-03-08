@@ -1,0 +1,440 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "788d6098a5ec36576a46",
+  "position": {
+    "x": 1473.6491351923755,
+    "y": 102.47229085774798,
+    "z": 11000,
+    "height": 322.05577126720789,
+    "width": 419.64842922696789,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculated Measures (2)"
+                    }
+                  },
+                  "Property": "Average Order Value (AOV)"
+                }
+              },
+              "queryRef": "Calculated Measures (2).Average Order Value (AOV)",
+              "nativeQueryRef": "Average Order Value (AOV)"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Calculated Measures (2)"
+                  }
+                },
+                "Property": "Average Order Value (AOV)"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "referenceLabel": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculated Measures (2)"
+                    }
+                  },
+                  "Property": "PM_AOV"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)",
+            "id": "field-4ba549ac-d570-27d1-3bc4-769b5377139b",
+            "order": 0
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculated Measures (2)"
+                    }
+                  },
+                  "Property": "M_AOV_var"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)",
+            "id": "field-23ac6289-c522-2b19-affe-1adfbe69d18e",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculated Measures (2)"
+                    }
+                  },
+                  "Property": "MoM_AOV"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)",
+            "id": "field-2bedca81-ad42-98bb-8bcd-02e803790e9f",
+            "order": 2
+          }
+        }
+      ],
+      "referenceLabelValue": [
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "MoM_Colour_AOV"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)",
+            "id": "field-2bedca81-ad42-98bb-8bcd-02e803790e9f"
+          }
+        },
+        {
+          "properties": {
+            "valueDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'₺#,#'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)",
+            "id": "field-4ba549ac-d570-27d1-3bc4-769b5377139b"
+          }
+        },
+        {
+          "properties": {
+            "valueDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'$#,#'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)",
+            "id": "field-23ac6289-c522-2b19-affe-1adfbe69d18e"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "MoM_Colour_AOV"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)",
+            "id": "field-23ac6289-c522-2b19-affe-1adfbe69d18e"
+          }
+        },
+        {
+          "properties": {
+            "valueFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)"
+          }
+        }
+      ],
+      "referenceLabelTitle": [
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'PM:'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)",
+            "id": "field-4ba549ac-d570-27d1-3bc4-769b5377139b"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'ΔPM:'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)",
+            "id": "field-23ac6289-c522-2b19-affe-1adfbe69d18e"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'vs PM:'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Calculated Measures (2).Average Order Value (AOV)",
+            "id": "field-2bedca81-ad42-98bb-8bcd-02e803790e9f"
+          }
+        }
+      ],
+      "layout": [
+        {
+          "properties": {
+            "style": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Cards'"
+                }
+              }
+            },
+            "orientation": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "backgroundShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "fillCustom": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "outline": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "label": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

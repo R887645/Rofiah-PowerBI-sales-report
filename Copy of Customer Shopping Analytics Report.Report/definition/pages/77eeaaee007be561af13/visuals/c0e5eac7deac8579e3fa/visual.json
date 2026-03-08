@@ -1,0 +1,65 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "c0e5eac7deac8579e3fa",
+  "position": {
+    "x": 65.875044122837977,
+    "y": 75.634309918813983,
+    "z": 10000,
+    "height": 82.953759265795981,
+    "width": 1154.0331803741617,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "This page shows who our customers are, how fast they’re growing, their age and gender splits, how they prefer to pay,",
+                    "textStyle": {
+                      "fontStyle": "italic",
+                      "fontSize": "14pt",
+                      "color": "#6f1d1b"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " and their purchasing behaviour patterns.",
+                    "textStyle": {
+                      "fontStyle": "italic",
+                      "fontSize": "14pt",
+                      "color": "#6f1d1b"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

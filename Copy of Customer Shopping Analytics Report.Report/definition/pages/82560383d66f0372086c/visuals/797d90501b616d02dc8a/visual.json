@@ -1,0 +1,184 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "797d90501b616d02dc8a",
+  "position": {
+    "x": 798.42404198720249,
+    "y": 366.08239269537705,
+    "z": 13000,
+    "height": 294.85369185419512,
+    "width": 299.82313609892873,
+    "tabOrder": 12000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "1. Cevahir AVM",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#6b2328"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "2. Emaar Square Mall",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#6b2328"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "3. Forum Istanbul",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#6b2328"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "4. stinye Park",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#6b2328"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "5. Kanyon",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#6b2328"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "6. Mall of Istanbul",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#6b2328"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "7. Metrocity",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#6b2328"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "8.  Metropol AVM",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#6b2328"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "9. Viaport Outlet",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#6b2328"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "10. Zorlu Center",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#6b2328"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#ffe6a7'"
+                    }
+                  }
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

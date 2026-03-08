@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "ba5cf36e92c5c9651115",
+  "position": {
+    "x": 339.57869005679777,
+    "y": 188.83888129987776,
+    "z": 0,
+    "height": 276.63239629017181,
+    "width": 366.08239269537705,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Location_ID"
+                    }
+                  },
+                  "Property": "shopping_mall"
+                }
+              },
+              "queryRef": "Location_ID.shopping_mall",
+              "nativeQueryRef": "shopping_mall"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculated Measures (2)"
+                    }
+                  },
+                  "Property": "Order_Count"
+                }
+              },
+              "queryRef": "Calculated Measures (2).Order_Count",
+              "nativeQueryRef": "Order_Count"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculated Measures (2)"
+                    }
+                  },
+                  "Property": "Total Revenue"
+                }
+              },
+              "queryRef": "Calculated Measures (2).Total Revenue",
+              "nativeQueryRef": "Total Revenue"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

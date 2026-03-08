@@ -1,0 +1,863 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.0.0/schema.json",
+  "displayName": "Reset_Cust",
+  "name": "fcc70925bb856149ad05",
+  "options": {
+    "targetVisualNames": [
+      "633a226c803ea1bfaf0d"
+    ]
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "77eeaaee007be561af13",
+    "sections": {
+      "77eeaaee007be561af13": {
+        "visualContainers": {
+          "d66a58503f86adbd2cb2": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "307e96dd564d8701de93",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Total Revenue"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Total Revenue"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "75cd94b36d8bd944df21": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "fb1fa25a26744230dc64",
+                  "type": "Categorical",
+                  "expression": {
+                    "GroupRef": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_FACT"
+                        }
+                      },
+                      "Property": "Age Range",
+                      "GroupedColumns": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Customer_FACT"
+                              }
+                            },
+                            "Property": "age"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "ebe02104ed606600b0d2",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_DIM"
+                        }
+                      },
+                      "Property": "Total Customer"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredColumnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_DIM"
+                        }
+                      },
+                      "Property": "Total Customer"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "GroupRef": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_FACT"
+                        }
+                      },
+                      "Property": "Age Range",
+                      "GroupedColumns": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Customer_FACT"
+                              }
+                            },
+                            "Property": "age"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "81fe94447a9a07b01c6a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "1bedde1ed1932441802e",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Total Quantity"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Total Quantity"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "4e4b31b323a19be67018": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "3d41599eaeeee40401c7",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Order_Count"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Order_Count"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "47b6f291a50d85097f75": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "044e876109e162bcb251",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Average Order Value (AOV)"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Average Order Value (AOV)"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "12d07de0d98062c4f459": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "35bd75a35b528409a4b3",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Order_DIM"
+                        }
+                      },
+                      "Property": "payment_method"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "fb1fa051750d0016178d",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_DIM"
+                        }
+                      },
+                      "Property": "Total Customer"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "donutChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_DIM"
+                        }
+                      },
+                      "Property": "Total Customer"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Order_DIM"
+                        }
+                      },
+                      "Property": "payment_method"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "7c896d95115b86370aa6": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "2d59abf2a03050b023bd",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Total Revenue"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "b71f197ae3396d15251d",
+                  "type": "Categorical",
+                  "expression": {
+                    "GroupRef": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_FACT"
+                        }
+                      },
+                      "Property": "Age Range",
+                      "GroupedColumns": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Customer_FACT"
+                              }
+                            },
+                            "Property": "age"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "6d49dc78e017cc3742a7",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_DIM"
+                        }
+                      },
+                      "Property": "gender"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredColumnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Total Revenue"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "GroupRef": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_FACT"
+                        }
+                      },
+                      "Property": "Age Range",
+                      "GroupedColumns": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Customer_FACT"
+                              }
+                            },
+                            "Property": "age"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "411e1f50ad8c0c1a44ed": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "70d987948b20adc00e25",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Half_Month"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "ae0f3ab00565700cc007",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "CustomerSummary"
+                        }
+                      },
+                      "Property": "Customer_Growth_MoM (%)"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredColumnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Half_Month"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Half_Month"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "260015a43a05d028a509": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "c0e5eac7deac8579e3fa": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "a36972107ebe600d0942": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "f5dbbec39c9aa500a1aa": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "99e51e50c1847c95cf01": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "647171ff36c5198557d7": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "f718bb3cb2a3012faeff": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "92220743e26b57f70536": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "e21833ace0eda33c3470": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "7c59055e0a300dc7d0e5",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Year"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Basic'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "false"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Year"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "2f99bb99facbad188dbf": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "6f8bc1ba0b229014ad8f": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "dd48646633130a8e10d6",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Month"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Month"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "f19f4ecd0d767e0f091d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ed56897f720b9627967e",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Product Category Description"
+                        }
+                      },
+                      "Property": "Product Category"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Product Category Description"
+                        }
+                      },
+                      "Property": "Product Category"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "633a226c803ea1bfaf0d": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "0290658b92da5a597373": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "7e3f6f8665e24890bc07",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_FACT"
+                        }
+                      },
+                      "Property": "shopping_mall"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "faca0ad09202a0573e00",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calculated Measures (2)"
+                        }
+                      },
+                      "Property": "Average Order Value (AOV)"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "ad25f89eb5b721020dd2",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_DIM"
+                        }
+                      },
+                      "Property": "Total Customer"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_DIM"
+                        }
+                      },
+                      "Property": "Total Customer"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Customer_FACT"
+                        }
+                      },
+                      "Property": "shopping_mall"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "057053921fa2bb3e3fde": {
+            "isHidden": true
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

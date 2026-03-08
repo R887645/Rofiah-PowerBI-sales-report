@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "ed10940b94a87c3f65d4",
+  "position": {
+    "x": 75.634309918813983,
+    "y": 78.074126367807978,
+    "z": 6000,
+    "height": 82.953759265795981,
+    "width": 1154.0331803741617,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "This page analyzes revenue by product category, gender split, and month‑over‑month changes. It reveals which categories are top performers, which are declining, and how customer preferences shift over time.",
+                    "textStyle": {
+                      "fontStyle": "italic",
+                      "fontSize": "14pt",
+                      "color": "#6f1d1b"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

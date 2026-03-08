@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "512373444b76ea4fa32d",
+  "position": {
+    "x": 45.714285714285715,
+    "y": 60.952380952380949,
+    "z": 9000,
+    "height": 85.333333333333329,
+    "width": 1158.0952380952381,
+    "tabOrder": 11000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "This page breaks customers into spend levels and tracks sales trends across months, days, and malls, highlighting where revenue is strongest.",
+                    "textStyle": {
+                      "fontStyle": "italic",
+                      "fontSize": "14pt",
+                      "color": "#6f1d1b"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
