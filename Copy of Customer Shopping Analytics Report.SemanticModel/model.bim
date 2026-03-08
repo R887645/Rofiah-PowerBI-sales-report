@@ -11073,11 +11073,6 @@
             "value": "Table"
           }
         ],
-        "changedProperties": [
-          {
-            "property": "Name"
-          }
-        ],
         "columns": [
           {
             "name": "invoice_no",
